@@ -6,7 +6,6 @@ import Header from "./Components/Header/Index";
 import About from "./Components/About/About";
 import Work from "./Components/Work/Index";
 import Contact from "./Components/Contact/Index";
-import ScrollToTop from "./Components/ScrollBtn/ScrollToTop";
 import Loader from "./Loader";
 
 const App = () => {
@@ -22,7 +21,6 @@ const App = () => {
     <Loader />
   ) : (
     <div className='App'>
-      <ScrollToTop />
       <Header />
       <About />
       <Work />

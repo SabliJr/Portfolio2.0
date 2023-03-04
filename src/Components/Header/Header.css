@@ -71,13 +71,14 @@
 }
 
 .heroP {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.4;
     letter-spacing: 1px;
     margin: 1.8rem 0;
     color: #95a5a6;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Klee One', cursive;
+    font-weight: 600;
 }
 
 .navDiv {

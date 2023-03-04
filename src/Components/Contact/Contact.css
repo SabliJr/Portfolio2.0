@@ -1,9 +1,5 @@
  .contact_section {
-     height: 32vh;
-     width: 100%;
-     margin-bottom: 0;
-     display: grid;
-
+     margin-top: 18rem;
  }
 
  .contact_section h2 {
@@ -18,25 +14,39 @@
  .conText {
      width: 60%;
      text-align: center;
-     font-size: 1.3rem;
+     font-size: 1.5rem;
+     font-weight: 600;
      color: #bdc3c7;
      margin: 1.5rem auto;
-     font-family: 'Fira Sans', sans-serif;
+     font-family: 'Klee One', cursive;
  }
 
  .email_btn {
-     font-size: 1.3rem;
-     padding: 3px 5px;
-     margin: 1.2rem 0 3.3rem 0;
-     border: 2px solid #e67e22;
-     color: #e67e22;
-     background-color: transparent;
+     font-size: 1.8rem;
+     font-weight: 500;
+     padding: 4px 8px;
+     border: none;
+     color: black;
      border-radius: 0.3125rem;
+     background-color: #3c9bfa;
      align-self: center;
      text-justify: auto;
-     font-family: 'Acme', sans-serif;
      cursor: pointer;
-     justify-self: center;
+     font-family: 'Share Tech', sans-serif;
+ }
+
+ .linkedIn {
+     color: #3c9bfa;
+     font-size: 2.5rem;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+ }
+
+ .email_btn:hover {
+     border: 2px solid #e67e22;
+     background-color: transparent;
+     color: #e67e22;
  }
 
  .footer {
@@ -61,6 +71,14 @@
      color: #728182b9;
  }
 
+ .contactDiv {
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+     align-items: center;
+     margin: 1.6rem auto 8rem;
+ }
+
  @media screen and (max-width: 1300px) {
 
      @media screen and (max-width: 1000px) {
@@ -83,6 +101,7 @@
              @media screen and (max-width: 580px) {
                  .conText {
                      width: 90%;
+                     font-size: 1.2rem;
                      margin: 1rem auto;
                  }
              }

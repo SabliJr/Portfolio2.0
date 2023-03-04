@@ -8,7 +8,8 @@ const Work = () => {
   return (
     <article className='work_article' id='myWork'>
       <h2>
-        My Work <span className='line'>______</span>
+        My Work
+        {/* <span className='line'>______</span> */}
       </h2>
       <div className='main_div'>
         <img src={P1Img} alt='P1Img' />
