@@ -1,0 +1,81 @@
+.arrowDiv {
+    position: relative;
+}
+
+.iconPosition {
+    position: fixed;
+    bottom: 40px;
+    right: 9rem;
+    z-index: 20;
+}
+
+.iconStyle {
+    height: 40px;
+    width: 40px;
+    color: #7d91a4;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+}
+
+.iconStyle:hover {
+    animation: none;
+    background: #fff;
+    color: #34495e;
+    border: 2px solid #34495e;
+}
+
+@keyframes movebtn {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    75% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    @media screen and (max-width: 900px) {
+        .iconPosition {
+            bottom: 40px;
+            right: 1rem;
+            z-index: 20;
+        }
+
+
+        @media screen and (max-width: 800px) {
+            .iconStyle {
+                height: 30px;
+                width: 30px;
+
+            }
+
+            .iconPosition {
+                bottom: 40px;
+                right: 1rem;
+                z-index: 20;
+            }
+
+            @media screen and (max-width: 580px) {
+                .iconPosition {
+                    bottom: 40px;
+                    right: .5rem;
+                    z-index: 20;
+                }
+            }
+        }
+    }
+}

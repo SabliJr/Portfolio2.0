@@ -1,0 +1,92 @@
+ .contact_section {
+     height: 32vh;
+     width: 100%;
+     margin-bottom: 0;
+     display: grid;
+
+ }
+
+ .contact_section h2 {
+     color: #f4ffff;
+     font-size: 2.8rem;
+     font-family: 'Acme', sans-serif;
+     text-align: center;
+     margin-top: 2.5rem;
+     letter-spacing: .8px;
+ }
+
+ .conText {
+     width: 60%;
+     text-align: center;
+     font-size: 1.3rem;
+     color: #bdc3c7;
+     margin: 1.5rem auto;
+     font-family: 'Fira Sans', sans-serif;
+ }
+
+ .email_btn {
+     font-size: 1.3rem;
+     padding: 3px 5px;
+     margin: 1.2rem 0 3.3rem 0;
+     border: 2px solid #e67e22;
+     color: #e67e22;
+     background-color: transparent;
+     border-radius: 0.3125rem;
+     align-self: center;
+     text-justify: auto;
+     font-family: 'Acme', sans-serif;
+     cursor: pointer;
+     justify-self: center;
+ }
+
+ .footer {
+     justify-self: center;
+     display: grid;
+ }
+
+ .i {
+     margin: .4rem;
+     font-size: 1.2rem;
+     cursor: pointer;
+     color: #f4ffff;
+ }
+
+ .social_div {
+     justify-self: center;
+ }
+
+ .copyRight {
+     justify-self: center;
+     margin-bottom: .8rem;
+     color: #728182b9;
+ }
+
+ @media screen and (max-width: 1300px) {
+
+     @media screen and (max-width: 1000px) {
+
+         .contact_section h2 {
+             font-size: 1.8rem;
+         }
+
+         .contact_section {
+             height: 22vh;
+         }
+
+         @media screen and (max-width: 800px) {
+
+             .contact_section h2 {
+                 color: #f4ffff;
+                 font-size: 2rem;
+             }
+
+             @media screen and (max-width: 580px) {
+                 .conText {
+                     width: 90%;
+                     margin: 1rem auto;
+                 }
+             }
+         }
+     }
+
+ }
