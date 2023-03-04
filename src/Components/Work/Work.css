@@ -9,10 +9,6 @@
     text-align: center;
 }
 
-.line {
-    font-size: 1.8rem;
-}
-
 .main_div {
     display: flex;
     flex-direction: column;

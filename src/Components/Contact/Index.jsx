@@ -4,7 +4,6 @@ import "./Contact.css";
 import { BsTwitter, BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-// import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   let today = new Date();

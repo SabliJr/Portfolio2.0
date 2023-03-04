@@ -2,15 +2,11 @@ import "./Work.css";
 
 import P1Img from "../../Assests/falconce.jpg";
 import P2Img from "../../Assests/wordle.jpg";
-// import P3Img from "../../Assests/store.png";
 
 const Work = () => {
   return (
     <article className='work_article' id='myWork'>
-      <h2>
-        My Work
-        {/* <span className='line'>______</span> */}
-      </h2>
+      <h2>My Work</h2>
       <div className='main_div'>
         <img src={P1Img} alt='P1Img' />
         <div className='text_div'>

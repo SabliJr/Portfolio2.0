@@ -14,9 +14,7 @@ const About = () => {
     <section className='aboutSection' id='about'>
       <img className='aboutImg' src={AboutImg} alt='AboutImg' />
       <div className='textDiv'>
-        <h3>
-          About Me <span className='line'>______</span>{" "}
-        </h3>
+        <h3>About Me</h3>
         <p>
           My name is Sabli Junior, I’m a frontend software engineer. I’m highly
           self-motivated and passionate about coding and start-ups as I dream to

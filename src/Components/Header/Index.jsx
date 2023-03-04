@@ -66,7 +66,7 @@ const Header = () => {
                   MyWork
                 </Link>
               </li>
-              <li>
+              <li id='contAct'>
                 <Link
                   to='contact'
                   spy={true}
