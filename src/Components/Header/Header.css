@@ -83,10 +83,8 @@
 
 .heroP {
     font-size: 1.6rem;
-    font-weight: 500;
     line-height: 1.4;
-    letter-spacing: 1px;
-    margin: 1.8rem 0;
+    margin: 1.2rem 0 1.8rem;
     color: #95a5a6;
     font-family: 'Klee One', cursive;
     font-weight: 600;

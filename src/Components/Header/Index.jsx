@@ -7,7 +7,7 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "../../SVG/NewLogo.svg";
 import HeroBtn from "../../SVG/ReadMore.png";
-import HeroTitleSvg from "./HeroTitleSvg";
+import HeroTitleSvg from "./TitleSvg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

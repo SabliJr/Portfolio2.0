@@ -87,15 +87,17 @@
              font-size: 1.8rem;
          }
 
-         .contact_section {
-             height: 22vh;
-         }
+
 
          @media screen and (max-width: 800px) {
 
              .contact_section h2 {
                  color: #f4ffff;
                  font-size: 2rem;
+             }
+
+             .contact_section {
+                 margin-top: 8rem;
              }
 
              @media screen and (max-width: 580px) {
