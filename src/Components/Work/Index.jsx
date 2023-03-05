@@ -12,18 +12,22 @@ const Work = () => {
         <div className='text_div'>
           <h4>Falconce</h4>
           <p>
-            Falconce is a crypto prices & news tracking web app, this app is a
-            combination of three APIs one for news and the other 2 are from
-            CoinMarketCap & CoinGecko,
+            Falconce is a crypto prices & news tracking web app, I build this
+            app with three APIs one for news and the other 2 are from
+            CoinMarketCap & CoinGecko for Crypto data.
             <br />
             <br />
             One of the major challenges as a junior developer was to come up
-            with an interesting ideas that worth spending week or so on it
-            building it. But I ran into a bigger problem which was the
-            limitation of data. So eventaily, I had use three APIs to get around
-            this problem, because of their free tier endpoints are very limited.
-            I used node/express for the backend as CMC & the other they don't
-            allow a client fetch.
+            with an interesting idea that is worth spending a week or so on it
+            building it. But I ran into a bigger problem than that which was the
+            limitation of data. So eventually, I had to use three APIs to get
+            around this problem, because their free tier endpoints are very
+            limited.
+            <br />
+            <br />
+            There was also a challenge of stacks because I had to use
+            node/express for the backend as CoinMarketCap doesn't allow a client
+            fetching.
           </p>
           <div className='Stack_div'>
             <h6>Techs I used:</h6>

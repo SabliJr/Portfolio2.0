@@ -16,28 +16,26 @@ const About = () => {
       <div className='textDiv'>
         <h3>About Me</h3>
         <p>
-          My name is Sabli Junior, I’m a frontend software engineer. I’m highly
-          self-motivated and passionate about coding and start-ups as I dream to
-          found one myself one day!
+          My name is Sabli Junior I'm a self-thought frontend developer, who is
+          highly passionate about coding and start-ups as I dream to found one
+          myself one day! My love of technology and curiosity led me to coding,
+          and from the moment I console logged “Hello World” I knew I was hooked
+          into the world of software development.
           <br />
           <br />
-          I love exploring and learning, I’m a lifelong learner, and my talent
-          is the ability to learn expeditiously. I’m from Sudan but I live in
-          France, I speak 3 languages English, Arabic and French(B1), I love
-          languages, both humans and computers.. I’m also a big fan of Tech and
-          Crypto.
-          <br />
-          <br />
-          I know how to use a couple of Adobe suite softwares. My creative
-          skills have been either proudly self-taught or taught by fellow
-          mentors. I am always excitedly in search of new challenges, which can
-          lead to higher growth.
-          <br />
-          <br />
+          I love exploring and learning, because I hadn’t had an opportunity to
+          go to school in Sudan for varies reasons. When I found coding It was a
+          discovery moment for me to satiate my insatiable hunger for learning.
           My goal is to work in a company where I can deliver business values,
           while also levelling up my skills as a developer, I like to seek out
           learning opportunities and not being afraid to fail and struggle as a
           part of learning.
+          <br />
+          <br />
+          Below you’ll find projects I’ve build that showcase my skill and
+          general background in developing software, though I’m learning
+          consistently and always working on what could stretch my ability and
+          lead to higher growth.
         </p>
 
         <div className='skillsDiv'>

@@ -13,8 +13,9 @@ const Contact = () => {
     <section className='contact_section' id='contact'>
       <h2>Get in touch...</h2>
       <p className='conText'>
-        You can find me on social media at the links provided below. However, I
-        suggest reaching out via email as I'm not on social media that often.
+        If you're looking for a junior dev that has these characteristics my
+        resume is ready to go, just send me a DM. Or You can find me on social
+        media at the links provided below.
       </p>
       <div className='contactDiv'>
         <div
