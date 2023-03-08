@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import Logo from "../../SVG/NewLogo.svg";
-import HeroBtn from "../../SVG/ReadMore.png";
 import HeroTitleSvg from "./TitleSvg";
 
 const Header = () => {
@@ -87,20 +86,6 @@ const Header = () => {
       <article className='heroArticle'>
         <div className='heroFirstDiv'>
           <HeroTitleSvg className='heroImg' />
-          <div className='heroSecDiv'>
-            <p className='heroP'>
-              Hey there, my name is Sabli Jr. I’m front-end developer & content
-              creator.
-            </p>
-            <Link
-              to='about'
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}>
-              <img className='heroBtn' src={HeroBtn} alt='HeroBtn' />
-            </Link>
-          </div>
         </div>
       </article>
     </section>

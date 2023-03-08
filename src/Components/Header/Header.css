@@ -63,30 +63,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15.3%;
-}
-
-.heroSecDiv {
-    width: 55%;
-    padding-left: 8rem;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .heroImg {
-    width: 65%;
-}
-
-.heroBtn {
-    width: 30%;
-    cursor: pointer;
-}
-
-.heroP {
-    font-size: 1.6rem;
-    line-height: 1.4;
-    margin: 1.2rem 0 1.8rem;
-    color: #95a5a6;
-    font-family: 'Klee One', cursive;
-    font-weight: 600;
+    width: 45%;
 }
 
 .navDiv {
@@ -112,7 +96,6 @@
         padding: 2.5rem 0 0 1.25rem;
         width: 250px;
         height: 100vh;
-        background-color: #eafefe58;
         box-shadow: rgba(160, 199, 211, 0.573) 0px 2px 8px 0px;
         backdrop-filter: blur(.875rem);
         transition: .3s all ease-in-out;
@@ -135,7 +118,7 @@
     /* Hero responsive design */
 
     .heroImg {
-        width: 90%;
+        width: 70%;
     }
 
     .heroP {
@@ -144,19 +127,6 @@
         letter-spacing: .6px;
         padding: 2rem 0;
         margin: 0;
-    }
-
-    .heroFirstDiv {
-        margin-top: 50%;
-    }
-
-    .heroSecDiv {
-        width: 60%;
-        padding-left: 3rem;
-    }
-
-    .heroBtn {
-        width: 25%;
     }
 
     @media screen and (max-width: 800px) {
@@ -177,18 +147,7 @@
         /* Hero responsive design */
 
         .heroImg {
-            width: 80%;
-        }
-
-        .heroP {
-            font-size: 1rem;
-            line-height: 1.2;
-            letter-spacing: .6px;
-            padding: 1.1rem 0;
-        }
-
-        .heroBtn {
-            width: 40%;
+            width: 70%;
         }
 
     }
@@ -209,13 +168,12 @@
 
         .heroSecDiv {
             width: 90%;
-            padding-left: 3rem;
         }
 
         /* Hero responsive design */
 
         .heroImg {
-            width: 110%;
+            width: 80%;
         }
     }
 }
