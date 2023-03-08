@@ -7,7 +7,10 @@ import css from "../../Assests/CSS.png";
 import Js from "../../Assests/JS.png";
 import ReactLogo from "../../Assests/React.png";
 import Git from "../../Assests/Git.png";
-import Adobe from "../../Assests/AB.png";
+import Typescript from "../../Assests/Typescrip.png";
+import HTML from "../../Assests/Html.png";
+import Redux from "../../Assests/redux.png";
+import Sass from "../../Assests/sass.png";
 
 const About = () => {
   return (
@@ -37,30 +40,42 @@ const About = () => {
           consistently and always working on what could stretch my ability and
           lead to higher growth.
         </p>
+      </div>
 
-        <div className='skillsDiv'>
-          <h5>Skills:</h5>
-          <div className='iconsDiv'>
-            <div className='iconImgDiv'>
-              <img src={css} alt='' />
-              <p>CSS</p>
-            </div>
-            <div className='iconImgDiv'>
-              <img src={Js} alt='' />
-              <p>JavaScript</p>
-            </div>
-            <div className='iconImgDiv'>
-              <img src={ReactLogo} alt='' />
-              <p>React</p>
-            </div>
-            <div className='iconImgDiv'>
-              <img src={Git} alt='' />
-              <p>Git</p>
-            </div>
-            <div className='iconImgDiv'>
-              <img src={Adobe} alt='' />
-              <p>Adobe suite</p>
-            </div>
+      <div className='skillsDiv'>
+        <h5>Technical Skills:</h5>
+        <div className='iconsDiv'>
+          <div className='iconImgDiv'>
+            <img src={HTML} alt='' />
+            <p>HTML</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={css} alt='' />
+            <p>CSS</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={Sass} alt='' />
+            <p>SASS</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={Js} alt='' />
+            <p>JS</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={ReactLogo} alt='' />
+            <p>React</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={Redux} alt='' />
+            <p>Redux</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={Git} alt='' />
+            <p>Git</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={Typescript} alt='' />
+            <p>TS</p>
           </div>
         </div>
       </div>
