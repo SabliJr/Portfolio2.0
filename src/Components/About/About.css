@@ -38,6 +38,7 @@
     font-family: 'Klee One', cursive;
     font-size: 1.153rem;
     font-weight: 600;
+    /* width: 105%; */
 }
 
 .skillsDiv {
@@ -53,6 +54,8 @@
     font-size: 2rem;
     padding: .8rem 2rem .5rem;
     letter-spacing: 1px;
+    font-family: 'Share Tech', sans-serif;
+
 }
 
 .iconsDiv {
