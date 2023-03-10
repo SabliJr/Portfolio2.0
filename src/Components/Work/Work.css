@@ -76,7 +76,7 @@
     flex-wrap: wrap;
 }
 
-button {
+.workBtns {
     font-size: 1.4rem;
     margin-top: 1.5rem;
     padding: 8px 10px;
@@ -90,7 +90,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.workBtns:hover {
     background-color: transparent;
     border: 2px solid #e67e22;
     color: #e67e22;
@@ -163,7 +163,7 @@ button:hover {
                 margin: 8.5rem auto 2rem;
             }
 
-            button {
+            .workBtns {
                 font-size: 1rem;
                 margin-top: 0;
             }

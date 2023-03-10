@@ -39,10 +39,10 @@ const Work = () => {
           </div>
           <div className='buttons_div'>
             <a target='#blank' href='https://falconce.netlify.app/'>
-              <button>View Live</button>
+              <button className='workBtns'>View Live</button>
             </a>
             <a target='#blank' href='https://github.com/SabliJr/CryptoApp'>
-              <button>Source Code</button>
+              <button className='workBtns'>Source Code</button>
             </a>
           </div>
         </div>
@@ -75,10 +75,10 @@ const Work = () => {
           </div>
           <div className='buttons_div'>
             <a target='#blank' href='https://sablijr.github.io/WordleClone/'>
-              <button>View Live</button>
+              <button className='workBtns'>View Live</button>
             </a>
             <a target='#blank' href='https://github.com/SabliJr/WordleClone'>
-              <button>Source Code</button>
+              <button className='workBtns'>Source Code</button>
             </a>
           </div>
         </div>

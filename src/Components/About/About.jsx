@@ -26,13 +26,11 @@ const About = () => {
           into the world of software development.
           <br />
           <br />
-          I love exploring and learning, because I hadn’t had an opportunity to
-          go to school in Sudan for varies reasons. When I found coding It was a
-          discovery moment for me to satiate my insatiable hunger for learning.
-          My goal is to work in a company where I can deliver business values,
-          while also levelling up my skills as a developer, I like to seek out
-          learning opportunities and not being afraid to fail and struggle as a
-          part of learning.
+          I love learning & exploring, I’m a lifelong learner, and my talent is
+          the ability to learn expeditiously. My goal is to work in a company
+          where I can deliver business values, while also levelling up my skills
+          as a developer, I like to seek out learning opportunities and not
+          being afraid to fail and struggle as a part of learning.
           <br />
           <br />
           Below you’ll find projects I’ve build that showcase my skill and
