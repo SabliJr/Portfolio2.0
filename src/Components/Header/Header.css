@@ -50,16 +50,15 @@
     text-align: center;
     font-size: 1.5rem;
     border-radius: .44rem;
-    background-color: #3c9bfa;
-    color: rgb(27, 26, 26);
+    background-color: transparent;
+    border: 2px solid #e67e22;
     cursor: pointer;
     font-family: 'Share Tech', sans-serif;
 }
 
 .ResumeBtn:hover {
-    background-color: transparent;
-    border: 2px solid #e67e22;
-    color: #e67e22;
+    background-color: #3c9bfa;
+    color: rgb(27, 26, 26);
 }
 
 .mobileMenuIcon {
