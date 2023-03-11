@@ -60,6 +60,7 @@
 .ResumeBtn:hover {
     background-color: #3c9bfa;
     color: rgb(27, 26, 26);
+    border: none;
 }
 
 .mobileMenuIcon {
