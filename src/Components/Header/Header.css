@@ -52,6 +52,7 @@
     border-radius: .44rem;
     background-color: transparent;
     border: 2px solid #e67e22;
+    color: #e67e22;
     cursor: pointer;
     font-family: 'Share Tech', sans-serif;
 }
