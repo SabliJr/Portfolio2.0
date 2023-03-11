@@ -10,7 +10,6 @@ import Git from "../../Assests/Git.png";
 import Typescript from "../../Assests/Typescrip.png";
 import HTML from "../../Assests/Html.png";
 import Redux from "../../Assests/redux.png";
-import Sass from "../../Assests/sass.png";
 
 const About = () => {
   return (
@@ -52,12 +51,8 @@ const About = () => {
             <p>CSS</p>
           </div>
           <div className='iconImgDiv'>
-            <img src={Sass} alt='' />
-            <p>SASS</p>
-          </div>
-          <div className='iconImgDiv'>
             <img src={Js} alt='' />
-            <p>JS</p>
+            <p>JavaScript</p>
           </div>
           <div className='iconImgDiv'>
             <img src={ReactLogo} alt='' />
@@ -73,7 +68,7 @@ const About = () => {
           </div>
           <div className='iconImgDiv'>
             <img src={Typescript} alt='' />
-            <p>TS</p>
+            <p>TypeScript</p>
           </div>
         </div>
       </div>
