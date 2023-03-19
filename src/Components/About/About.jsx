@@ -1,15 +1,15 @@
 import React from "react";
 import "./About.css";
 
-import AboutImg from "../../Assests/me.jpg";
+import AboutImg from "../../Assets/me.jpg";
 
-import css from "../../Assests/CSS.png";
-import Js from "../../Assests/JS.png";
-import ReactLogo from "../../Assests/React.png";
-import Git from "../../Assests/Git.png";
-import Typescript from "../../Assests/Typescrip.png";
-import HTML from "../../Assests/Html.png";
-import Redux from "../../Assests/redux.png";
+import css from "../../Assets/CSS.png";
+import Js from "../../Assets/JS.png";
+import ReactLogo from "../../Assets/React.png";
+import Git from "../../Assets/Git.png";
+import Typescript from "../../Assets/Typescrip.png";
+import HTML from "../../Assets/Html.png";
+import Redux from "../../Assets/redux.png";
 
 const About = () => {
   return (
@@ -33,7 +33,7 @@ const About = () => {
           <br />
           <br />
           Below you’ll find projects I’ve build that showcase my skill and
-          general background in developing software, though I’m learning
+          general knowledge in developing software, though I’m learning
           consistently and always working on what could stretch my ability and
           lead to higher growth.
         </p>

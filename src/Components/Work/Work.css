@@ -8,7 +8,7 @@
     letter-spacing: 1px;
     color: #e67e22;
     text-align: center;
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .main_div {
@@ -42,7 +42,7 @@
     letter-spacing: 1px;
     font-weight: bold;
     align-self: center;
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .Stack_div span {
@@ -97,7 +97,7 @@
 }
 
 .main_div img {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 15px;
