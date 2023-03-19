@@ -50,17 +50,18 @@
     text-align: center;
     font-size: 1.5rem;
     border-radius: .44rem;
-    background-color: transparent;
-    border: 2px solid #e67e22;
-    color: #e67e22;
+    background-color: #3498db;
+    border: transparent;
+    color: rgb(27, 26, 26);
     cursor: pointer;
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
 }
 
 .ResumeBtn:hover {
-    background-color: #3c9bfa;
-    color: rgb(27, 26, 26);
-    border: none;
+    border: 2px solid #e67e22;
+    color: #e67e22;
+    background-color: transparent;
 }
 
 .mobileMenuIcon {
@@ -87,7 +88,7 @@
 }
 
 .heroImg {
-    width: 45%;
+    width: 85%;
 }
 
 .navDiv {
@@ -135,7 +136,7 @@
     /* Hero responsive design */
 
     .heroImg {
-        width: 70%;
+        width: 100%;
     }
 
     .heroP {
@@ -164,7 +165,7 @@
         /* Hero responsive design */
 
         .heroImg {
-            width: 70%;
+            width: 100%;
         }
 
     }
@@ -190,7 +191,7 @@
         /* Hero responsive design */
 
         .heroImg {
-            width: 80%;
+            width: 130%;
         }
     }
 }

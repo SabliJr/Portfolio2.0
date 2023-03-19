@@ -14,8 +14,8 @@ const Contact = () => {
       <h2>Get in touch...</h2>
       <p className='conText'>
         If you're looking for a junior dev that has these characteristics my
-        resume is ready to go, just send me a DM. Or You can find me on social
-        media at the links provided below.
+        resume is ready to go, just shoot me an email. Or You can find me on
+        social media at the links provided below.
       </p>
       <div className='contactDiv'>
         <div

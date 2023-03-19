@@ -1,7 +1,8 @@
 import "./Work.css";
 
-import P1Img from "../../Assests/falconce.jpg";
-import P2Img from "../../Assests/wordle.jpg";
+import P1Img from "../../Assets/falconce.jpg";
+import P2Img from "../../Assets/wordle.jpg";
+import APlus from "../../Assets/A+.jpg";
 
 const Work = () => {
   return (
@@ -12,28 +13,21 @@ const Work = () => {
         <div className='text_div'>
           <h4>Falconce</h4>
           <p>
-            Falconce is a crypto prices & news tracking web app, I build this
-            app with three APIs one for news and the other 2 are from
-            CoinMarketCap & CoinGecko for Crypto data.
+            Falconce is a crypto prices & news tracking web app, you can check
+            the last minute prices of the top 250 coins or you can look it up
+            for any coin in the market. Plus, some latest news.
             <br />
-            <br />
-            One of the major challenges as a junior developer was to come up
-            with an interesting idea that is worth spending a week or so on it
-            building it. But I ran into a bigger problem than that which was the
-            limitation of data. So eventually, I had to use three APIs to get
-            around this problem, because their free tier endpoints are very
-            limited.
-            <br />
-            <br />
-            There was also a challenge of stacks because I had to use
-            node/express for the backend as CoinMarketCap doesn't allow a client
-            fetching.
+            <br />I build this app with three APIs one for news and the other 2
+            are from CoinMarketCap & CoinGecko for Crypto data.I had to use
+            three APIs to get around this problem, because their free tier
+            endpoints are very limited.
           </p>
           <div className='Stack_div'>
             <h6>Techs I used:</h6>
             <div>
               <span>CSS</span>
               <span>React</span>
+              <span>TypeScript</span>
               <span>Node/Express</span>
             </div>
           </div>
@@ -50,18 +44,19 @@ const Work = () => {
       <div className='main_div'>
         <img src={P2Img} alt='P2Img' />
         <div className='text_div'>
-          <h4>Wordle Clone.</h4>
+          <h4>Wordle Clone</h4>
           <p>
             Wordle is a word-guessing game that gives you six attempts to find
             the word of the day! You'll start out by randomly guessing any
-            five-letter word. From there, the game will tell you if each letter
-            you guess is in the word and in the correct place green, in the word
-            but not in the correct place yellow, or not in the word at all gray.
+            five-letter word.
+            {/* From there, the game will tell you if each letter
+            you guess is in the word and if it's in the correct place it's green, in the word
+            but not in the correct place yellow, or not in the word at all gray. */}
             <br />
             <br />
             I used two APIs from the Rapid API store, one to generate a
             five-letter random word and another to check if the guessed word
-            really an English word.
+            really an is English word.
             <br />
           </p>
 
@@ -78,6 +73,43 @@ const Work = () => {
               <button className='workBtns'>View Live</button>
             </a>
             <a target='#blank' href='https://github.com/SabliJr/WordleClone'>
+              <button className='workBtns'>Source Code</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className='main_div'>
+        <img src={APlus} alt='P1Img' />
+        <div className='text_div'>
+          <h4>A+ Studio</h4>
+          <p>
+            This is a digital products marketing agency landing page that I
+            found on Figma as a free file.
+            <br />
+            <br />
+            There's not much going on here it's just a normal landing page. I
+            built it just to demonstrate my ability to work with design-ready
+            files or collaborating with designers. Here's the Figma file&nbsp;
+            <a
+              target='#blank'
+              href='https://www.figma.com/file/nvkAlzDVeG2mFajNM28xk2/Studio-Design-Landin-Page-(Community)?node-id=2-3&t=P37TQHTp2QXRvMcM-0'>
+              link.
+            </a>
+          </p>
+          <div className='Stack_div'>
+            <h6>Techs I used:</h6>
+            <div>
+              <span>CSS</span>
+              <span>React</span>
+            </div>
+          </div>
+          <div className='buttons_div'>
+            <a target='#blank' href='https://aplusagency.netlify.app/'>
+              <button className='workBtns'>View Live</button>
+            </a>
+            <a
+              target='#blank'
+              href='https://github.com/SabliJr/MarkrtingAgency'>
               <button className='workBtns'>Source Code</button>
             </a>
           </div>
