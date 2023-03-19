@@ -14,13 +14,13 @@ const Work = () => {
           <h4>Falconce</h4>
           <p>
             Falconce is a crypto prices & news tracking web app, you can check
-            the last minute prices of the top 250 coins or you can look it up
+            the last-minute prices of the top 250 coins or you can look it up
             for any coin in the market. Plus, some latest news.
             <br />
             <br />I build this app with three APIs one for news and the other 2
-            are from CoinMarketCap & CoinGecko for Crypto data.I had to use
-            three APIs to get around this problem, because their free tier
-            endpoints are very limited.
+            from CoinMarketCap & CoinGecko for Crypto data. I had to use three
+            APIs to get around this problem because their free tier endpoints
+            are very limited.
           </p>
           <div className='Stack_div'>
             <h6>Techs I used:</h6>
@@ -56,7 +56,7 @@ const Work = () => {
             <br />
             I used two APIs from the Rapid API store, one to generate a
             five-letter random word and another to check if the guessed word
-            really an is English word.
+            really is an English word.
             <br />
           </p>
 
@@ -89,7 +89,7 @@ const Work = () => {
             <br />
             There's not much going on here it's just a normal landing page. I
             built it just to demonstrate my ability to work with design-ready
-            files or collaborating with designers. Here's the Figma file&nbsp;
+            files or collaborate with designers. Here's the Figma file&nbsp;
             <a
               target='#blank'
               href='https://www.figma.com/file/nvkAlzDVeG2mFajNM28xk2/Studio-Design-Landin-Page-(Community)?node-id=2-3&t=P37TQHTp2QXRvMcM-0'>

@@ -18,24 +18,22 @@ const About = () => {
       <div className='textDiv'>
         <h3>About Me</h3>
         <p>
-          My name is Sabli Junior I'm a self-thought frontend developer, who is
-          highly passionate about coding and start-ups as I dream to found one
-          myself one day! My love of technology and curiosity led me to coding,
-          and from the moment I console logged “Hello World” I knew I was hooked
-          into the world of software development.
+          My name's Sabli Jr. I'm a self-thought frontend software developer,
+          who is really passionate about coding and start-ups as I dream to
+          found one myself one day! My love of technology and curiosity led me
+          to code. I love exploring and learning, I’m a lifelong learner and my
+          talent is the ability to learn expeditiously.
           <br />
           <br />
-          I love learning & exploring, I’m a lifelong learner, and my talent is
-          the ability to learn expeditiously. My goal is to work in a company
-          where I can deliver business values, while also levelling up my skills
-          as a developer, I like to seek out learning opportunities and not
-          being afraid to fail and struggle as a part of learning.
+          Because I hadn’t had an opportunity to finish school in Sudan for
+          various reasons, when I found the world of coding, it was a discovery
+          moment for me to satiate my hunger for learning.
           <br />
           <br />
-          Below you’ll find projects I’ve build that showcase my skill and
-          general knowledge in developing software, though I’m learning
-          consistently and always working on what could stretch my ability and
-          lead to higher growth.
+          My goal is to work in a company where I can deliver business values,
+          while also leveling up my skills as a developer, I like to seek out
+          learning opportunities and not be afraid to fail and struggle as a
+          part of learning.
         </p>
       </div>
 
