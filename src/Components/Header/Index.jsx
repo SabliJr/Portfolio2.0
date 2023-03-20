@@ -8,6 +8,7 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../../SVG/NewLogo.svg";
 import HeroTitleSvg from "./Title";
 
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleTrigger = () => setIsOpen(!isOpen);
@@ -69,7 +70,14 @@ const Header = () => {
                 Contact
               </Link>
             </li>
-            <button className='ResumeBtn'>Resume</button>
+
+            <a
+              className='ResumeLink'
+              target='#blank'
+              href='https://drive.google.com/file/d/1wrLEeQGYfAVwb0Vqrnp4PGx0zljSpeVV/view?usp=sharing'
+              download='Resume'>
+              <button className='ResumeBtn'>Resume</button>
+            </a>
           </ul>
           <div className='mobileMenuIcon' onClick={handleTrigger} ref={menuRef}>
             <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />

@@ -58,6 +58,11 @@
     font-weight: 500;
 }
 
+.ResumeLink {
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+}
+
 .ResumeBtn:hover {
     border: 2px solid #e67e22;
     color: #e67e22;
