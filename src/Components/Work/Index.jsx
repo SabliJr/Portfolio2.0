@@ -27,7 +27,6 @@ const Work = () => {
             <div>
               <span>CSS</span>
               <span>React</span>
-              <span>TypeScript</span>
               <span>Node/Express</span>
             </div>
           </div>

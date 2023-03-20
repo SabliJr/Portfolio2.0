@@ -7,7 +7,7 @@ import css from "../../Assets/CSS.png";
 import Js from "../../Assets/JS.png";
 import ReactLogo from "../../Assets/React.png";
 import Git from "../../Assets/Git.png";
-import Typescript from "../../Assets/Typescrip.png";
+import Adobe from "../../Assets/AB.png";
 import HTML from "../../Assets/Html.png";
 import Redux from "../../Assets/redux.png";
 
@@ -65,8 +65,8 @@ const About = () => {
             <p>Git</p>
           </div>
           <div className='iconImgDiv'>
-            <img src={Typescript} alt='' />
-            <p>TypeScript</p>
+            <img src={Adobe} alt='' />
+            <p>Adobe Suite</p>
           </div>
         </div>
       </div>
