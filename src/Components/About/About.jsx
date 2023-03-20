@@ -57,12 +57,12 @@ const About = () => {
             <p>React</p>
           </div>
           <div className='iconImgDiv'>
-            <img src={Redux} alt='' />
-            <p>Redux</p>
-          </div>
-          <div className='iconImgDiv'>
             <img src={Git} alt='' />
             <p>Git</p>
+          </div>
+          <div className='iconImgDiv'>
+            <img src={Redux} alt='' />
+            <p>Redux</p>
           </div>
           <div className='iconImgDiv'>
             <img src={Adobe} alt='' />
