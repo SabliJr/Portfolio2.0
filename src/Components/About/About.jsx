@@ -27,13 +27,16 @@ const About = () => {
           <br />
           Because I hadn’t had an opportunity to finish school in Sudan for
           various reasons, when I found the world of coding, it was a discovery
-          moment for me to satiate my hunger for learning.
+          moment for me to satiate my hunger for learning. My goal is to work in
+          a company where I can deliver business values, while also leveling up
+          my skills as a developer, I like to seek out learning opportunities
+          and not be afraid to fail and struggle as a part of learning.
           <br />
           <br />
-          My goal is to work in a company where I can deliver business values,
-          while also leveling up my skills as a developer, I like to seek out
-          learning opportunities and not be afraid to fail and struggle as a
-          part of learning.
+          Below you’ll find projects I’ve completed that showcase my skill and
+          general knowledge in developing software, though I’m consistently
+          learning and always working on what could stretch my skills and lead
+          to higher growth.
         </p>
       </div>
 

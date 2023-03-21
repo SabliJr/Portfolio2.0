@@ -13,14 +13,13 @@ const Work = () => {
         <div className='text_div'>
           <h4>Falconce</h4>
           <p>
-            Falconce is a crypto prices & news tracking web app, you can check
-            the last-minute prices of the top 250 coins or you can look it up
+            Falconce is a crypto prices & news tracking web app, where you can
+            check the last-minute prices of the top 250 coins or you can search
             for any coin in the market. Plus, some latest news.
             <br />
-            <br />I build this app with three APIs one for news and the other 2
-            from CoinMarketCap & CoinGecko for Crypto data. I had to use three
-            APIs to get around this problem because their free tier endpoints
-            are very limited.
+            <br />I built this app with three APIs one for news and the other 2
+            from CoinMarketCap & CoinGecko for Crypto data. I used three APIs to
+            get around the problem of the limitation of data of the free tiers.
           </p>
           <div className='Stack_div'>
             <h6>Techs I used:</h6>
