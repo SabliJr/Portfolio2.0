@@ -2,6 +2,11 @@
      margin-top: 18rem;
  }
 
+ .contact {
+     max-width: 1280px;
+     margin: 0 auto;
+ }
+
  .contact_section h2 {
      color: #f4ffff;
      font-size: 2.8rem;

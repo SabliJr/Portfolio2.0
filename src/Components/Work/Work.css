@@ -1,3 +1,8 @@
+.work {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .work_article {
     width: 90%;
     margin: 17.5rem auto 12rem;
