@@ -9,7 +9,7 @@ const SVGComponent = (props) => (
     <defs>
       <style>
         {
-          "\n      .cls-1{fill:#ecf0f1;}.cls-2{fill:#3498db;}.cls-3{fill:none;stroke:#ecf0f1;stroke-miterlimit:10;stroke-width:9px;}\n    "
+          "\n      .cls-1{fill:#ecf0f1;}.cls-2{fill:#3498db;}.cls-3{fill:none;stroke:#ecf0f1;stroke-miterlimit:10;stroke-width:8px;}\n    "
         }
       </style>
     </defs>
