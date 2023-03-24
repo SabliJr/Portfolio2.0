@@ -97,7 +97,6 @@ const Header = () => {
           <div className='heroFirstDiv'>
             <HeroTitleSvg className='heroImg' />
             <button className='HeroBtn'>
-              {" "}
               <Link
                 to='myWork'
                 spy={true}
