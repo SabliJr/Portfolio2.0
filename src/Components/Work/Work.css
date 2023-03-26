@@ -13,7 +13,8 @@
     letter-spacing: 1px;
     color: #f4ffff;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main_div {

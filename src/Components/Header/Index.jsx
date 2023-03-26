@@ -96,6 +96,9 @@ const Header = () => {
         <article className='heroArticle'>
           <div className='heroFirstDiv'>
             <HeroTitleSvg className='heroImg' />
+            <p className='heroP'>
+              I bring beautiful modern designs into functionality on the web.
+            </p>
             <button className='HeroBtn'>
               <Link
                 to='myWork'
