@@ -79,7 +79,7 @@ const Header = () => {
               <a
                 className='ResumeLink'
                 target='#blank'
-                href='https://drive.google.com/file/d/1wrLEeQGYfAVwb0Vqrnp4PGx0zljSpeVV/view?usp=sharing'
+                href='https://drive.google.com/drive/my-drive'
                 download='Resume'>
                 <button className='ResumeBtn'>Resume</button>
               </a>
