@@ -2,7 +2,6 @@ import "./Work.css";
 
 import P1Img from "../../Assets/falconce.jpg";
 import P2Img from "../../Assets/wordle.jpg";
-import APlus from "../../Assets/A+.jpg";
 
 const Work = () => {
   return (
@@ -73,43 +72,6 @@ const Work = () => {
                 <button className='workBtns'>View Live</button>
               </a>
               <a target='#blank' href='https://github.com/SabliJr/WordleClone'>
-                <button className='workBtns'>Source Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className='main_div'>
-          <img src={APlus} alt='P1Img' />
-          <div className='text_div'>
-            <h4>A+ Studio</h4>
-            <p>
-              This is a digital products marketing agency landing page that I
-              found on Figma as a free file.
-              <br />
-              <br />
-              There's not much going on here it's just a normal landing page. I
-              built it just to demonstrate my ability to work with design-ready
-              files or collaborate with designers. Here's the Figma file&nbsp;
-              <a
-                target='#blank'
-                href='https://www.figma.com/file/nvkAlzDVeG2mFajNM28xk2/Studio-Design-Landin-Page-(Community)?node-id=2-3&t=P37TQHTp2QXRvMcM-0'>
-                link.
-              </a>
-            </p>
-            <div className='Stack_div'>
-              <h6>Techs I used:</h6>
-              <div>
-                <span>CSS</span>
-                <span>React</span>
-              </div>
-            </div>
-            <div className='buttons_div'>
-              <a target='#blank' href='https://aplusagency.netlify.app/'>
-                <button className='workBtns'>View Live</button>
-              </a>
-              <a
-                target='#blank'
-                href='https://github.com/SabliJr/MarkrtingAgency'>
                 <button className='workBtns'>Source Code</button>
               </a>
             </div>
