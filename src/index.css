@@ -12,17 +12,14 @@
 body {
   margin: 0 auto;
   background-color: #010307;
-  /* background-color: #1e1e1e; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* max-width: 1600px; */
 }
 
 
 .App {
-  /* margin: 0 auto;
-  max-width: 1280px; */
+  overflow: hidden;
 }

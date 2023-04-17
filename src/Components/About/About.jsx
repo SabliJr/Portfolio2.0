@@ -10,6 +10,8 @@ import Git from "../../Assets/Git.png";
 import Typescript from "../../Assets/Typescrip.png";
 import HTML from "../../Assets/Html.png";
 import Redux from "../../Assets/redux.png";
+import Graphql from "../../Assets/Graphql.png";
+import Node from "../../Assets/Nodejs.png";
 
 const About = () => {
   return (
@@ -60,6 +62,14 @@ const About = () => {
             <div className='iconImgDiv'>
               <img src={ReactLogo} alt='' />
               <p>React</p>
+            </div>
+            <div className='iconImgDiv'>
+              <img src={Graphql} alt='' />
+              <p>GraphQl</p>
+            </div>
+            <div className='iconImgDiv'>
+              <img src={Node} alt='' />
+              <p>Node Js</p>
             </div>
             <div className='iconImgDiv'>
               <img src={Git} alt='' />
