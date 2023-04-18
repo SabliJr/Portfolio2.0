@@ -21,26 +21,23 @@ const About = () => {
         <div className='textDiv'>
           <h3>About Me</h3>
           <p>
-            My name's Sabli Jr. I'm a self-thought frontend software developer,
-            who is really passionate about coding and start-ups as I dream to
-            found one myself one day! My love of technology and curiosity led me
-            to code. I love exploring and learning, I’m a lifelong learner and
-            my talent is the ability to learn expeditiously.
+            My name’s Sabli Jr. I am a frontend developer with a little less
+            than a year of experience in the industry. My expertise lies in
+            JavaScript, TypeScript, and ReactJS, and I am passionate about
+            creating beautiful, responsive, and intuitive user interfaces that
+            enhance the user experience. I have a keen eye for design and am
+            able to translate complex designs into functional and aesthetically
+            pleasing web applications.
             <br />
             <br />
-            Because I hadn’t had an opportunity to finish school in Sudan for
-            various reasons, when I found the world of coding, it was a
-            discovery moment for me to satiate my hunger for learning. My goal
-            is to work in a company where I can deliver business values, while
-            also leveling up my skills as a developer, I like to seek out
-            learning opportunities and not be afraid to fail and struggle as a
-            part of learning.
+            My love of technology and curiosity has driven me to pursue coding,
+            I enjoy exploring and learning new things. I’m a lifelong learner
+            and I possess the talent to learn quickly, which is essential in the
+            fast-paced world of technology.
             <br />
             <br />
-            Below you’ll find projects I’ve completed that showcase my skill and
-            general knowledge in developing software, though I’m consistently
-            learning and always working on what could stretch my skills and lead
-            to higher growth.
+            In addition to my technical skills, I am a good communicator and am
+            able to work effectively in a team environment.
           </p>
         </div>
 
