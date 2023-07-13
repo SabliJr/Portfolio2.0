@@ -10,24 +10,23 @@ import Git from "../../Assets/Git.png";
 import Typescript from "../../Assets/Typescrip.png";
 import HTML from "../../Assets/Html.png";
 import Redux from "../../Assets/redux.png";
-import Graphql from "../../Assets/Graphql.png";
 import Node from "../../Assets/Nodejs.png";
 
 const About = () => {
   return (
-    <main className='mainAbout'>
-      <section className='aboutSection' id='about'>
-        <img className='aboutImg' src={AboutImg} alt='AboutImg' />
-        <div className='textDiv'>
+    <main className="mainAbout">
+      <section className="aboutSection" id="about">
+        <img className="aboutImg" src={AboutImg} alt="AboutImg" />
+        <div className="textDiv">
           <h3>About Me</h3>
           <p>
-            My name’s Sabli Jr. I am a frontend developer with a little less
-            than a year of experience in the industry. My expertise lies in
-            JavaScript, TypeScript, and ReactJS, and I am passionate about
-            creating beautiful, responsive, and intuitive user interfaces that
-            enhance the user experience. I have a keen eye for design and am
-            able to translate complex designs into functional and aesthetically
-            pleasing web applications.
+            name’s Sabli Jr. I am a frontend developer with a little less than a
+            year of experience in the industry. My expertise lies in JavaScript,
+            TypeScript, and ReactJS, and I am passionate about creating
+            beautiful, responsive, and intuitive user interfaces that enhance
+            the user experience. I have a keen eye for design and am able to
+            translate complex designs into functional and aesthetically pleasing
+            web applications.
             <br />
             <br />
             My love of technology and curiosity has driven me to pursue coding,
@@ -41,43 +40,39 @@ const About = () => {
           </p>
         </div>
 
-        <div className='skillsDiv'>
+        <div className="skillsDiv">
           <h5>Technical Skills:</h5>
-          <div className='iconsDiv'>
-            <div className='iconImgDiv'>
-              <img src={HTML} alt='' />
+          <div className="iconsDiv">
+            <div className="iconImgDiv">
+              <img src={HTML} alt="" />
               <p>HTML</p>
             </div>
-            <div className='iconImgDiv'>
-              <img src={css} alt='' />
+            <div className="iconImgDiv">
+              <img src={css} alt="" />
               <p>CSS</p>
             </div>
-            <div className='iconImgDiv'>
-              <img src={Js} alt='' />
+            <div className="iconImgDiv">
+              <img src={Js} alt="" />
               <p>JavaScript</p>
             </div>
-            <div className='iconImgDiv'>
-              <img src={ReactLogo} alt='' />
+            <div className="iconImgDiv">
+              <img src={ReactLogo} alt="" />
               <p>React</p>
             </div>
-            <div className='iconImgDiv'>
-              <img src={Graphql} alt='' />
-              <p>GraphQl</p>
-            </div>
-            <div className='iconImgDiv'>
-              <img src={Node} alt='' />
+            <div className="iconImgDiv">
+              <img src={Node} alt="" />
               <p>Node Js</p>
             </div>
-            <div className='iconImgDiv'>
-              <img src={Git} alt='' />
+            <div className="iconImgDiv">
+              <img src={Git} alt="" />
               <p>Git</p>
             </div>
-            <div className='iconImgDiv'>
-              <img src={Redux} alt='' />
+            <div className="iconImgDiv">
+              <img src={Redux} alt="" />
               <p>Redux Toolkit</p>
             </div>
-            <div className='iconImgDiv'>
-              <img src={Typescript} alt='' />
+            <div className="iconImgDiv">
+              <img src={Typescript} alt="" />
               <p>Typescript</p>
             </div>
           </div>
