@@ -6,7 +6,7 @@ import AboutImg from "../../Assets/me.jpg";
 import css from "../../Assets/CSS.png";
 import Js from "../../Assets/JS.png";
 import ReactLogo from "../../Assets/React.png";
-import SASS from "../../Assets/sass.png.png";
+import SASS from "../../Assets/sass.png";
 import Git from "../../Assets/Git.png";
 import Typescript from "../../Assets/Typescrip.png";
 import HTML from "../../Assets/Html.png";
