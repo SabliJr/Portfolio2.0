@@ -6,6 +6,7 @@ import AboutImg from "../../Assets/me.jpg";
 import css from "../../Assets/CSS.png";
 import Js from "../../Assets/JS.png";
 import ReactLogo from "../../Assets/React.png";
+import SASS from "../../Assets/sass.png.png";
 import Git from "../../Assets/Git.png";
 import Typescript from "../../Assets/Typescrip.png";
 import HTML from "../../Assets/Html.png";
@@ -54,6 +55,10 @@ const About = () => {
             <div className="iconImgDiv">
               <img src={Js} alt="" />
               <p>JavaScript</p>
+            </div>
+            <div className="iconImgDiv">
+              <img src={SASS} alt="" />
+              <p>sass</p>
             </div>
             <div className="iconImgDiv">
               <img src={ReactLogo} alt="" />
